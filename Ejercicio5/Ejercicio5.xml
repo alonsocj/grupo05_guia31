@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="UTF-8"  standalone="yes"?>
+
+<!--Ejercicio 5 Grupo 05 -->
+
+<agenda>
+
+<contacto id="1">
+    <nombre>Cristian Xavier</nombre>
+    <apellidos>Cruz Guerrero</apellidos>
+    <direccion>San Salvador,  Calle 54 av Nte No 354</direccion>
+    <telefono tipoT="celular">70689416</telefono>
+    <telefono  tipoT="fijo">22789631</telefono>
+    <telefono tipoT="trabajo">22697410</telefono>
+    <email tipoE ="personal">CrisXav816@gmail.com</email>
+    <email tipoE ="trabajo">Cristian.Cruz@siman.com</email>
+    <birthday>03/11/1999</birthday>
+</contacto>
+
+<contacto id="2">
+    <nombre>Maria Alejandra</nombre>
+    <apellidos>Cabrera Campos</apellidos>
+    <direccion>San Salvador,  Calle Bo San Miguelito 6 av Nte No 740</direccion>
+    <telefono tipoT="celular">75496321</telefono>
+    <telefono  tipoT="fijo">22984165</telefono>
+    <telefono tipoT="trabajo">22002244</telefono>
+    <email tipoE ="personal">MariaCC@hotmail.com</email>
+    <email tipoE ="trabajo">Maria.Cabrera@ues.edu.sv</email>
+    <birthday>21/02/1991</birthday>
+</contacto>
+
+<contacto id="3">
+    <nombre>Jose Antonio</nombre>
+    <apellidos>Hidalgo Aguilar</apellidos>
+    <direccion>San Salvador, 19 Avenida Nte </direccion>
+    <telefono tipoT="celular">61849732</telefono>
+    <telefono  tipoT="fijo">22634765</telefono>
+    <telefono tipoT="trabajo">22004466</telefono>
+    <email tipoE ="personal">JHidAgu84@gmail.com</email>
+    <email tipoE ="trabajo">Jose.Hidalgo@utec.edu.sv</email>
+    <birthday>24/07/1984</birthday>
+</contacto>
+
+<contacto id="4">
+    <nombre>Carmen Mercedes</nombre>
+    <apellidos>Rojas Gutierrez</apellidos>
+    <direccion>La Libertad, Urb Villa Lourdes Políg C Pje C No 7 </direccion>
+    <telefono tipoT="celular">78694215</telefono>
+    <telefono  tipoT="fijo">22746532</telefono>
+    <telefono tipoT="trabajo">22361111</telefono>
+    <email tipoE ="personal">CarmenRojas35@hotmail.es</email>
+    <email tipoE ="trabajo">CarmenPedidos@pedidosyasv.com.sv</email>
+    <birthday>13/04/1991</birthday>
+</contacto>
+
+<contacto id="5">
+    <nombre>Martin Alejandro</nombre>
+    <apellidos>Torres Navarro</apellidos>
+    <direccion>San Salvador, Col Escalon 3 CL Pte No 3987</direccion>
+    <telefono tipoT="celular">63048961</telefono>
+    <telefono  tipoT="fijo">22476385</telefono>
+    <telefono tipoT="trabajo">22550034</telefono>
+    <email tipoE ="personal">MarTowers24@gmail.com</email>
+    <email tipoE ="trabajo">MartinTorres@urbanonow.com</email>
+    <birthday>15/10/1986</birthday>
+</contacto>
+
+<contacto id="6">
+    <nombre>Laura Cristina</nombre>
+    <apellidos>Ruiz Moreno</apellidos>
+    <direccion>La Libertad, 29 Av Sur No 3 San Juan Opico</direccion>
+    <telefono tipoT="celular">69710065</telefono>
+    <telefono  tipoT="fijo">22346677</telefono>
+    <telefono tipoT="trabajo">22001143</telefono>
+    <email tipoE ="personal">LauCristin50@gmail.com</email>
+    <email tipoE ="trabajo">Laura.moreno@outlook.com</email>
+    <birthday>09/12/1994</birthday>
+</contacto>
+
+</agenda>
