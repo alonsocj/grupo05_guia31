@@ -17,98 +17,98 @@
   <!-- Columna 02 -->
   <colm id="2" >Lunes
     <max>Max
-      <tMax>12</tMax>
-      <tMax>15</tMax>
-      <tMax>20</tMax>
+      <tMax>33°C</tMax>
+      <tMax>31°C</tMax>
+      <tMax>32°C</tMax>
     </max>
     <min>Min
-      <tMin>10</tMin>
-      <tMin>9</tMin>
-      <tMin>8</tMin>
+      <tMin>24°C</tMin>
+      <tMin>22°C</tMin>
+      <tMin>21°C</tMin>
     </min>
   </colm>
 
   <!-- Columna 03 -->
   <colm id="3">Martes
     <max>Max
-      <tMax>15</tMax>
-      <tMax>15</tMax>
-      <tMax>15</tMax>
+      <tMax>32°C</tMax>
+      <tMax>30°C</tMax>
+      <tMax>29°C</tMax>
     </max>
     <min>Min
-      <tMin>9</tMin>
-      <tMin>9</tMin>
-      <tMin>9</tMin>
+      <tMin>22°C</tMin>
+      <tMin>24°C</tMin>
+      <tMin>20°C</tMin>
     </min>
   </colm>
 
   <!-- Columna 04 -->
   <colm id="4">Miercoles
     <max>Max
-      <tMax>12</tMax>
-      <tMax>15</tMax>
-      <tMax>20</tMax>
+      <tMax>32°C</tMax>
+      <tMax>33°C</tMax>
+      <tMax>30°C</tMax>
     </max>
     <min>Min
-      <tMin>10</tMin>
-      <tMin>9</tMin>
-      <tMin>8</tMin>
+      <tMin>21°C</tMin>
+      <tMin>24°C</tMin>
+      <tMin>22°C</tMin>
     </min>
   </colm>
 
   <!-- Columna 05 -->
   <colm id="5">Jueves
     <max>Max
-      <tMax>12</tMax>
-      <tMax>15</tMax>
-      <tMax>20</tMax>
+      <tMax>32°C</tMax>
+      <tMax>31°C</tMax>
+      <tMax>30°C</tMax>
     </max>
     <min>Min
-      <tMin>10</tMin>
-      <tMin>9</tMin>
-      <tMin>8</tMin>
+      <tMin>21°C</tMin>
+      <tMin>23°C</tMin>
+      <tMin>25°C</tMin>
     </min>
   </colm>
 
   <!-- Columna 06 -->
   <colm id="6">Viernes
     <max>Max
-      <tMax>12</tMax>
-      <tMax>15</tMax>
-      <tMax>20</tMax>
+      <tMax>34°C</tMax>
+      <tMax>30°C</tMax>
+      <tMax>31°C</tMax>
     </max>
     <min>Min
-      <tMin>10</tMin>
-      <tMin>9</tMin>
-      <tMin>8</tMin>
+      <tMin>24°C</tMin>
+      <tMin>25°C</tMin>
+      <tMin>21°C</tMin>
     </min>
   </colm>
 
   <!-- Columna 07 -->
   <colm id="7">Sabado
     <max>Max
-      <tMax>12</tMax>
-      <tMax>15</tMax>
-      <tMax>20</tMax>
+      <tMax>33°C</tMax>
+      <tMax>31°C</tMax>
+      <tMax>29°C</tMax>
     </max>
     <min>Min
-      <tMin>10</tMin>
-      <tMin>9</tMin>
-      <tMin>8</tMin>
+      <tMin>20°C</tMin>
+      <tMin>22°C</tMin>
+      <tMin>24°C</tMin>
     </min>
   </colm>
 
   <!-- Columna 08 -->
   <colm id="8">Domingo
     <max>Max
-      <tMax>12</tMax>
-      <tMax>15</tMax>
-      <tMax>20</tMax>
+      <tMax>33°C</tMax>
+      <tMax>31°C</tMax>
+      <tMax>30°C</tMax>
     </max>
     <min>Min
-      <tMin>10</tMin>
-      <tMin>9</tMin>
-      <tMin>8</tMin>
+      <tMin>23°C</tMin>
+      <tMin>21°C</tMin>
+      <tMin>20°C</tMin>
     </min>
   </colm>
 </Tabla>
