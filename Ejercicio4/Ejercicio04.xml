@@ -1,0 +1,116 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="Ejercicio04.css" ?>
+<!-- Ejercicio 04 -->
+
+
+<Temperaturas>
+<titulo>Temperatura</titulo>
+<Tabla>
+  <!-- Columna 01 -->
+  <colm id="1" name="dia">Dias
+    <fila id="1" name="Zonas"></fila>
+    <fila id="2" name="Oriental"></fila>
+    <fila id="3" name="Central"></fila>
+    <fila id="4" name="Occidental"></fila>
+  </colm>
+
+  <!-- Columna 02 -->
+  <colm id="2" >Lunes
+    <max>Max
+      <tMax>12</tMax>
+      <tMax>15</tMax>
+      <tMax>20</tMax>
+    </max>
+    <min>Min
+      <tMin>10</tMin>
+      <tMin>9</tMin>
+      <tMin>8</tMin>
+    </min>
+  </colm>
+
+  <!-- Columna 03 -->
+  <colm id="3">Martes
+    <max>Max
+      <tMax>15</tMax>
+      <tMax>15</tMax>
+      <tMax>15</tMax>
+    </max>
+    <min>Min
+      <tMin>9</tMin>
+      <tMin>9</tMin>
+      <tMin>9</tMin>
+    </min>
+  </colm>
+
+  <!-- Columna 04 -->
+  <colm id="4">Miercoles
+    <max>Max
+      <tMax>12</tMax>
+      <tMax>15</tMax>
+      <tMax>20</tMax>
+    </max>
+    <min>Min
+      <tMin>10</tMin>
+      <tMin>9</tMin>
+      <tMin>8</tMin>
+    </min>
+  </colm>
+
+  <!-- Columna 05 -->
+  <colm id="5">Jueves
+    <max>Max
+      <tMax>12</tMax>
+      <tMax>15</tMax>
+      <tMax>20</tMax>
+    </max>
+    <min>Min
+      <tMin>10</tMin>
+      <tMin>9</tMin>
+      <tMin>8</tMin>
+    </min>
+  </colm>
+
+  <!-- Columna 06 -->
+  <colm id="6">Viernes
+    <max>Max
+      <tMax>12</tMax>
+      <tMax>15</tMax>
+      <tMax>20</tMax>
+    </max>
+    <min>Min
+      <tMin>10</tMin>
+      <tMin>9</tMin>
+      <tMin>8</tMin>
+    </min>
+  </colm>
+
+  <!-- Columna 07 -->
+  <colm id="7">Sabado
+    <max>Max
+      <tMax>12</tMax>
+      <tMax>15</tMax>
+      <tMax>20</tMax>
+    </max>
+    <min>Min
+      <tMin>10</tMin>
+      <tMin>9</tMin>
+      <tMin>8</tMin>
+    </min>
+  </colm>
+
+  <!-- Columna 08 -->
+  <colm id="8">Domingo
+    <max>Max
+      <tMax>12</tMax>
+      <tMax>15</tMax>
+      <tMax>20</tMax>
+    </max>
+    <min>Min
+      <tMin>10</tMin>
+      <tMin>9</tMin>
+      <tMin>8</tMin>
+    </min>
+  </colm>
+</Tabla>
+<pie>Grupo 05</pie>
+</Temperaturas>
