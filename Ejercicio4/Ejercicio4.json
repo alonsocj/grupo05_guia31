@@ -1,0 +1,173 @@
+{
+	"Temperaturas": {
+		"titulo": "Temperatura",
+		"Tabla": {
+			"colm": [
+				{
+					"fila": [
+						{
+							"_id": "1",
+							"_name": "Zonas"
+						},
+						{
+							"_id": "2",
+							"_name": "Oriental"
+						},
+						{
+							"_id": "3",
+							"_name": "Central"
+						},
+						{
+							"_id": "4",
+							"_name": "Occidental"
+						}
+					],
+					"_id": "1",
+					"_name": "dia",
+					"__text": "Dias"
+				},
+				{
+					"max": {
+						"tMax": [
+							"33°C",
+							"31°C",
+							"32°C"
+						],
+						"__text": "Max"
+					},
+					"min": {
+						"tMin": [
+							"24°C",
+							"22°C",
+							"21°C"
+						],
+						"__text": "Min"
+					},
+					"_id": "2",
+					"__text": "Lunes"
+				},
+				{
+					"max": {
+						"tMax": [
+							"32°C",
+							"30°C",
+							"29°C"
+						],
+						"__text": "Max"
+					},
+					"min": {
+						"tMin": [
+							"22°C",
+							"24°C",
+							"20°C"
+						],
+						"__text": "Min"
+					},
+					"_id": "3",
+					"__text": "Martes"
+				},
+				{
+					"max": {
+						"tMax": [
+							"32°C",
+							"33°C",
+							"30°C"
+						],
+						"__text": "Max"
+					},
+					"min": {
+						"tMin": [
+							"21°C",
+							"24°C",
+							"22°C"
+						],
+						"__text": "Min"
+					},
+					"_id": "4",
+					"__text": "Miercoles"
+				},
+				{
+					"max": {
+						"tMax": [
+							"32°C",
+							"31°C",
+							"30°C"
+						],
+						"__text": "Max"
+					},
+					"min": {
+						"tMin": [
+							"21°C",
+							"23°C",
+							"25°C"
+						],
+						"__text": "Min"
+					},
+					"_id": "5",
+					"__text": "Jueves"
+				},
+				{
+					"max": {
+						"tMax": [
+							"34°C",
+							"30°C",
+							"31°C"
+						],
+						"__text": "Max"
+					},
+					"min": {
+						"tMin": [
+							"24°C",
+							"25°C",
+							"21°C"
+						],
+						"__text": "Min"
+					},
+					"_id": "6",
+					"__text": "Viernes"
+				},
+				{
+					"max": {
+						"tMax": [
+							"33°C",
+							"31°C",
+							"29°C"
+						],
+						"__text": "Max"
+					},
+					"min": {
+						"tMin": [
+							"20°C",
+							"22°C",
+							"24°C"
+						],
+						"__text": "Min"
+					},
+					"_id": "7",
+					"__text": "Sabado"
+				},
+				{
+					"max": {
+						"tMax": [
+							"33°C",
+							"31°C",
+							"30°C"
+						],
+						"__text": "Max"
+					},
+					"min": {
+						"tMin": [
+							"23°C",
+							"21°C",
+							"20°C"
+						],
+						"__text": "Min"
+					},
+					"_id": "8",
+					"__text": "Domingo"
+				}
+			]
+		},
+		"pie": "Grupo 05"
+	}
+}
