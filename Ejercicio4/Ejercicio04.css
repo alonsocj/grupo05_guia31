@@ -25,15 +25,13 @@ colm{
     text-align: center;
 }
 max,min{
-    display: table-cell;
-    border: 1px solid black; border-collapse: collapse;
+    display: table-cell;  
     font: normal 20px arial; 
           text-align: left;
           padding: 5px;
 }
 fila{
     display: table-row;
-    
     font: normal 20px arial; 
           text-align: left;
 }
