@@ -1,5 +1,5 @@
 agenda {
-  background: #4dff4d;
+  background: #262626;
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
@@ -13,6 +13,7 @@ agenda::before {
   font-size: 1.6rem;
   margin: 0 auto;
   position: absolute;
+  color: #ffcc00;
 }
 contacto {
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
@@ -23,7 +24,8 @@ contacto {
   text-align: left;
   display: flex;
   flex-direction: column;
-  background: #80ff80;
+  background: #000000;
+  color: white;
 }
 contacto[id]::before {
   content: "Contacto No: " attr(id);
@@ -32,30 +34,37 @@ contacto[id]::before {
   font-weight: bold;
   text-decoration: underline;
   font-size: 1.2rem;
+  color: #ffcc00;
 }
 nombre::before {
   content: "Nombres: ";
   font-weight: bold;
+  color: #ffcc00;
 }
 apellidos::before {
   content: "Apellidos: ";
   font-weight: bold;
+  color: #ffcc00;
 }
 direccion::before {
   content: "Direccion: ";
   font-weight: bold;
+  color: #ffcc00;
 }
 telefono[tipoT]::before {
   content: "Telefono " attr(tipoT) ": ";
   font-weight: bold;
+  color: #ffcc00;
 }
 email[tipoE]::before {
   content: "Email " attr(tipoE) ": ";
   font-weight: bold;
+  color: #ffcc00;
 }
 birthday::before {
   content: "Cumpleaños: ";
   font-weight: bold;
+  color: #ffcc00;
 }
 nombre,
 apellidos,
