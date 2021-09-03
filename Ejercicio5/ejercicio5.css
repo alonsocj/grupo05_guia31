@@ -1,0 +1,67 @@
+agenda {
+  background: #4dff4d;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin: 2.5rem auto;
+  position: relative;
+  padding-top: 1rem;
+}
+agenda::before {
+  content: "Agenda de Contactos";
+  font-weight: bold;
+  font-size: 1.6rem;
+  margin: 0 auto;
+  position: absolute;
+}
+contacto {
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
+  border-radius: 5px;
+  margin: 50px 50px;
+  width: calc(16.66% - 13px);
+  padding: 20px;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  background: #80ff80;
+}
+contacto[id]::before {
+  content: "Contacto No: " attr(id);
+  margin-bottom: 5px;
+  text-align: center;
+  font-weight: bold;
+  text-decoration: underline;
+  font-size: 1.2rem;
+}
+nombre::before {
+  content: "Nombres: ";
+  font-weight: bold;
+}
+apellidos::before {
+  content: "Apellidos: ";
+  font-weight: bold;
+}
+direccion::before {
+  content: "Direccion: ";
+  font-weight: bold;
+}
+telefono[tipoT]::before {
+  content: "Telefono " attr(tipoT) ": ";
+  font-weight: bold;
+}
+email[tipoE]::before {
+  content: "Email " attr(tipoE) ": ";
+  font-weight: bold;
+}
+birthday::before {
+  content: "Cumpleaños: ";
+  font-weight: bold;
+}
+nombre,
+apellidos,
+direccion,
+telefono,
+email,
+birthday {
+    margin: .2rem;
+}
