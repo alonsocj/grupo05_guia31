@@ -1,0 +1,306 @@
+{
+	"cuerpo": {
+		"titulo1": "EJERCICIO 6",
+		"titulo2": "Inscripción de asignaturas",
+		"contenido": {
+			"inscripcion": [
+				{
+					"nombre": {
+						"_name": "Nombre",
+						"__text": "Carmen Lorena"
+					},
+					"apellido": {
+						"_apellido": "Apellido",
+						"__text": "Peñate Carbón"
+					},
+					"carnet": {
+						"_car": "Carnet",
+						"__text": "PC17005"
+					},
+					"seccion": {
+						"materia": [
+							{
+								"codigo": {
+									"_co": "Código",
+									"__text": "FIR115"
+								},
+								"asignatura": {
+									"_asi": "Asignatura",
+									"__text": "Física I"
+								},
+								"grupoT": {
+									"_gt": "Grupo teórico",
+									"__text": "02"
+								},
+								"grupoL": {
+									"_gl": "Grupo de laboratorio",
+									"__text": "04"
+								}
+							},
+							{
+								"codigo": {
+									"_co": "Código",
+									"__text": "HSE115"
+								},
+								"asignatura": {
+									"_asi": "Asignatura",
+									"__text": "Historia Social y económica de El Salvador y Centroamérica"
+								},
+								"grupoT": {
+									"_gt": "Grupo teórico",
+									"__text": "01"
+								},
+								"grupoL": {
+									"_gl": "Grupo de laboratorio",
+									"__text": "07"
+								}
+							},
+							{
+								"codigo": {
+									"_co": "Código",
+									"__text": "MAT215"
+								},
+								"asignatura": {
+									"_asi": "Asignatura",
+									"__text": "Matemática II"
+								},
+								"grupoT": {
+									"_gt": "Grupo teórico",
+									"__text": "02"
+								},
+								"grupoL": {
+									"_gl": "Grupo de laboratorio",
+									"__text": "03"
+								}
+							}
+						],
+						"_mat": "Materias Inscritas"
+					},
+					"_id": "1"
+				},
+				{
+					"nombre": {
+						"_name": "Nombre",
+						"__text": "Josué Jaly"
+					},
+					"apellido": {
+						"_apellido": "Apellido",
+						"__text": "Cabasco López"
+					},
+					"carnet": {
+						"_car": "Carnet",
+						"__text": "CL19027"
+					},
+					"seccion": {
+						"materia": [
+							{
+								"codigo": {
+									"_co": "Código",
+									"__text": "ESD"
+								},
+								"asignatura": {
+									"_asi": "Asignatura",
+									"__text": "Estructura de Datos"
+								},
+								"grupoT": {
+									"_gt": "Grupo teórico",
+									"__text": "04"
+								},
+								"grupoL": {
+									"_gl": "Grupo de laboratorio",
+									"__text": "27"
+								}
+							},
+							{
+								"codigo": {
+									"_co": "Código",
+									"__text": "FIR315"
+								},
+								"asignatura": {
+									"_asi": "Asignatura",
+									"__text": "Física III"
+								},
+								"grupoT": {
+									"_gt": "Grupo teórico",
+									"__text": "01"
+								},
+								"grupoL": {
+									"_gl": "Grupo de laboratorio",
+									"__text": "12"
+								}
+							},
+							{
+								"codigo": {
+									"_co": "Código",
+									"__text": "MAT415"
+								},
+								"asignatura": {
+									"_asi": "Asignatura",
+									"__text": "Matemática IV"
+								},
+								"grupoT": {
+									"_gt": "Grupo teórico",
+									"__text": "02"
+								},
+								"grupoL": {
+									"_gl": "Grupo de laboratorio",
+									"__text": "01"
+								}
+							}
+						],
+						"_mat": "Materias Inscritas"
+					},
+					"_id": "2"
+				},
+				{
+					"nombre": {
+						"_name": "Nombre",
+						"__text": "Jennifer Calicia"
+					},
+					"apellido": {
+						"_apellido": "Apellido",
+						"__text": "Praga cruz"
+					},
+					"carnet": {
+						"_car": "Carnet",
+						"__text": "PC18006"
+					},
+					"seccion": {
+						"materia": [
+							{
+								"codigo": {
+									"_co": "Código",
+									"__text": "PRN115"
+								},
+								"asignatura": {
+									"_asi": "Asignatura",
+									"__text": "Programación I"
+								},
+								"grupoT": {
+									"_gt": "Grupo teórico",
+									"__text": "04"
+								},
+								"grupoL": {
+									"_gl": "Grupo de laboratorio",
+									"__text": "17"
+								}
+							},
+							{
+								"codigo": {
+									"_co": "Código",
+									"__text": "MSM115"
+								},
+								"asignatura": {
+									"_asi": "Asignatura",
+									"__text": "Manejo de Software para Microcomputadoras"
+								},
+								"grupoT": {
+									"_gt": "Grupo teórico",
+									"__text": "01"
+								},
+								"grupoL": {
+									"_gl": "Grupo de laboratorio",
+									"__text": "13"
+								}
+							},
+							{
+								"codigo": {
+									"_co": "Código",
+									"__text": "MAT215"
+								},
+								"asignatura": {
+									"_asi": "Asignatura",
+									"__text": "Matemática II"
+								},
+								"grupoT": {
+									"_gt": "Grupo teórico",
+									"__text": "03"
+								},
+								"grupoL": {
+									"_gl": "Grupo de laboratorio",
+									"__text": "19"
+								}
+							}
+						],
+						"_mat": "Materias Inscritas"
+					},
+					"_id": "3"
+				},
+				{
+					"nombre": {
+						"_name": "Nombre",
+						"__text": "Carson Fidel"
+					},
+					"apellido": {
+						"_apellido": "Apellido",
+						"__text": "Bolaños Pérez"
+					},
+					"carnet": {
+						"_car": "Carnet",
+						"__text": "BP15258"
+					},
+					"seccion": {
+						"materia": [
+							{
+								"codigo": {
+									"_co": "Código",
+									"__text": "ANF115"
+								},
+								"asignatura": {
+									"_asi": "Asignatura",
+									"__text": "Análisis Financiero"
+								},
+								"grupoT": {
+									"_gt": "Grupo teórico",
+									"__text": "04"
+								},
+								"grupoL": {
+									"_gl": "Grupo de laboratorio",
+									"__text": "16"
+								}
+							},
+							{
+								"codigo": {
+									"_co": "Código",
+									"__text": "CET115"
+								},
+								"asignatura": {
+									"_asi": "Asignatura",
+									"__text": "Comercio Electrónico"
+								},
+								"grupoT": {
+									"_gt": "Grupo teórico",
+									"__text": "02"
+								},
+								"grupoL": {
+									"_gl": "Grupo de laboratorio",
+									"__text": "03"
+								}
+							},
+							{
+								"codigo": {
+									"_co": "Código",
+									"__text": "DSI215"
+								},
+								"asignatura": {
+									"_asi": "Asignatura",
+									"__text": "Diseño de Sistemas II"
+								},
+								"grupoT": {
+									"_gt": "Grupo teórico",
+									"__text": "01"
+								},
+								"grupoL": {
+									"_gl": "Grupo de laboratorio",
+									"__text": "02"
+								}
+							}
+						],
+						"_mat": "Materias Inscritas"
+					},
+					"_id": "4"
+				}
+			]
+		}
+	}
+}

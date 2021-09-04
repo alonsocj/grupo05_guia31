@@ -1,0 +1,109 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="ejercicio6.css" ?>
+<!-- ejercicio 6 grupo 05 -->
+<cuerpo>
+  <titulo1>EJERCICIO 6</titulo1> 
+  <titulo2>Inscripción de asignaturas</titulo2>
+  <contenido>
+    <inscripcion id="1">
+      <nombre name="Nombre">Carmen Lorena</nombre>
+      <apellido apellido="Apellido">Peñate Carbón</apellido>
+      <carnet car="Carnet">PC17005</carnet>
+      <seccion mat="Materias Inscritas">
+        <materia>
+          <codigo co="Código">FIR115</codigo>
+          <asignatura asi="Asignatura">Física I</asignatura>
+          <grupoT gt="Grupo teórico">02</grupoT>
+          <grupoL gl="Grupo de laboratorio">04</grupoL>        
+        </materia>
+        <materia>
+          <codigo co="Código">HSE115</codigo>
+          <asignatura asi="Asignatura">Historia Social y económica de El Salvador y Centroamérica</asignatura>
+          <grupoT gt="Grupo teórico">01</grupoT>
+          <grupoL gl="Grupo de laboratorio">07</grupoL>        
+        </materia>
+        <materia>
+          <codigo co="Código">MAT215</codigo>
+          <asignatura asi="Asignatura">Matemática II</asignatura>
+          <grupoT gt="Grupo teórico">02</grupoT>
+          <grupoL gl="Grupo de laboratorio">03</grupoL>        
+        </materia>
+      </seccion>
+    </inscripcion>
+    <inscripcion id="2">
+      <nombre name="Nombre">Josué Jaly</nombre>
+      <apellido apellido="Apellido">Cabasco López</apellido>
+      <carnet car="Carnet">CL19027</carnet>
+      <seccion mat="Materias Inscritas">
+        <materia>
+          <codigo co="Código">ESD</codigo>
+          <asignatura asi="Asignatura">Estructura de Datos</asignatura>
+          <grupoT gt="Grupo teórico">04</grupoT>
+          <grupoL gl="Grupo de laboratorio">27</grupoL>        
+        </materia>
+        <materia>
+          <codigo co="Código">FIR315</codigo>
+          <asignatura asi="Asignatura">Física III</asignatura>
+          <grupoT gt="Grupo teórico">01</grupoT>
+          <grupoL gl="Grupo de laboratorio">12</grupoL>        
+        </materia>
+        <materia>
+          <codigo co="Código">MAT415</codigo>
+          <asignatura asi="Asignatura">Matemática IV</asignatura>
+          <grupoT gt="Grupo teórico">02</grupoT>
+          <grupoL gl="Grupo de laboratorio">01</grupoL>        
+        </materia>
+      </seccion>
+    </inscripcion>
+    <inscripcion id="3">
+      <nombre name="Nombre">Jennifer Calicia</nombre>
+      <apellido apellido="Apellido">Praga cruz</apellido>
+      <carnet car="Carnet">PC18006</carnet>
+      <seccion mat="Materias Inscritas">
+        <materia>
+          <codigo co="Código">PRN115</codigo>
+          <asignatura asi="Asignatura">Programación I</asignatura>
+          <grupoT gt="Grupo teórico">04</grupoT>
+          <grupoL gl="Grupo de laboratorio">17</grupoL>        
+        </materia>
+        <materia>
+          <codigo co="Código">MSM115</codigo>
+          <asignatura asi="Asignatura">Manejo de Software para Microcomputadoras</asignatura>
+          <grupoT gt="Grupo teórico">01</grupoT>
+          <grupoL gl="Grupo de laboratorio">13</grupoL>        
+        </materia>
+        <materia>
+          <codigo co="Código">MAT215</codigo>
+          <asignatura asi="Asignatura">Matemática II</asignatura>
+          <grupoT gt="Grupo teórico">03</grupoT>
+          <grupoL gl="Grupo de laboratorio">19</grupoL>        
+        </materia>
+      </seccion>
+    </inscripcion>
+    <inscripcion id="4">
+      <nombre name="Nombre">Carson Fidel</nombre>
+      <apellido apellido="Apellido">Bolaños Pérez</apellido>
+      <carnet car="Carnet">BP15258</carnet>
+      <seccion mat="Materias Inscritas">
+        <materia>
+          <codigo co="Código">ANF115</codigo>
+          <asignatura asi="Asignatura">Análisis Financiero</asignatura>
+          <grupoT gt="Grupo teórico">04</grupoT>
+          <grupoL gl="Grupo de laboratorio">16</grupoL>        
+        </materia>
+        <materia>
+          <codigo co="Código">CET115</codigo>
+          <asignatura asi="Asignatura">Comercio Electrónico</asignatura>
+          <grupoT gt="Grupo teórico">02</grupoT>
+          <grupoL gl="Grupo de laboratorio">03</grupoL>        
+        </materia>
+        <materia>
+          <codigo co="Código">DSI215</codigo>
+          <asignatura asi="Asignatura">Diseño de Sistemas II</asignatura>
+          <grupoT gt="Grupo teórico">01</grupoT>
+          <grupoL gl="Grupo de laboratorio">02</grupoL>        
+        </materia>
+      </seccion>
+    </inscripcion>
+  </contenido>
+</cuerpo>
