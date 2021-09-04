@@ -1,0 +1,84 @@
+/* ejercicio6.css   grupo 05 */
+cuerpo {
+    background-color: rgb(3, 51, 59);
+    padding: 6em;
+}
+contenido {
+    background-color: rgb(228, 213, 163);
+    border-radius: 0;
+    display:block;
+    padding-left: 3em;
+    padding-right: 3em;
+}
+inscripcion {
+    background-color: rgb(228, 213, 163);
+    display:block;
+    padding: 2em;
+}
+titulo1{
+    display: block;
+    text-transform: uppercase;
+    background-color: none;
+    text-align: center;
+    font-size: 2cm;
+    color: rgb(228, 213, 163);
+    font-family:'Times New Roman', Times, serif;
+}
+titulo2{
+    display:block;
+    background-color: none;
+    text-align: center;
+    font-size: 20px;
+    color: rgb(228, 213, 163);
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-bottom: 2em;
+}
+nombre{
+    display: block;
+    color: #000;
+}
+apellido{
+    display: block;
+    color: #000;
+}
+carnet{
+    display: block;
+    color: #000;
+}
+seccion{
+    display: block;
+    color: #000;
+}
+materia{
+    display: block;
+    color: #000;
+    padding-left: 1.5em;
+}
+codigo{
+    display: block;
+    color: #000;
+}
+asignatura{
+    display: block;
+    color: #000;
+    padding-left: 1.5em;
+}
+grupoT{
+    display: block;
+    color: #000;
+    padding-left: 1.5em;
+}
+grupoL{
+    display: block;
+    color: #000;
+    padding-left: 1.5em;
+}
+inscripcion[id]::before{content:"Inscripción: "attr(id);color:rgb(20, 58, 102);font-weight: bold;font-size: 20px;}
+nombre[name]::before{content:attr(name)": ";font-weight: bold;}
+apellido[apellido]::before{content:attr(apellido)": ";font-weight: bold;}
+carnet[car]::before{content:attr(car)": ";font-weight: bold;}
+seccion[mat]::before{content:attr(mat)": ";font-weight: bold;}
+codigo[co]::before{content:attr(co)": ";}
+asignatura[asi]::before{content:attr(asi)": ";}
+grupoT[gt]::before{content:attr(gt)": ";}
+grupoL[gl]::before{content:attr(gl)": ";}
