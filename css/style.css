@@ -12,9 +12,9 @@ nav {
     width: 50vw;
     min-width: 320px;
     height: 200px;
-  }
+}
 
-  nav h2 {
+nav h2 {
     border-radius: 2px;
     position: relative;
     background: #177BB6 ;
@@ -29,19 +29,22 @@ nav {
     align-items: center;
     box-shadow: 4px 4px 20px -2px rgba(0,0,0,.35);
     transition: all .4s;
-  }
+}
+
 /* Decoracion al pasar encima del h2 */
   nav:hover h2{
     transform: translateY(-2px);
     box-shadow: 2px 2px 5px -1px rgba(0,0,0,.35);
-   }
+}
+
    /* Decoracion al presionar el h2*/
-  nav:hover:active h2{
+nav:hover:active h2{
     transform: translateY(10px);
     box-shadow: 0px -1px 2px 0px rgba(0,0,0,.35);
-   }
+}
   /* Checkbox que despliega la lista */
-  input {
+
+input {
     position: absolute;
     left: 0;
     top: 0;
@@ -50,13 +53,14 @@ nav {
     opacity: 0;
     cursor: pointer;
     height: 80px;
-  }
-  /* Hace que la lista no aparezca visible*/
-  #toggle:checked ~ul {
+}
+
+/* Hace que la lista no aparezca visible*/
+#toggle:checked ~ul {
     height: 0%;
-  }
+}
   
-  nav ul {
+nav ul {
     padding-left: 0;
     padding-top: 0;
     margin-top: 0;
@@ -67,9 +71,9 @@ nav {
     text-align: center;
     transition: all .4s ease-out;
     height: 100%;
-    
-  }
-  nav ul li {
+}
+
+nav ul li {
     border-radius: 2px;
     position: relative;
     display: inline-block;
@@ -81,14 +85,14 @@ nav {
     background: #4288B2 ;
     transition: background 3s;
     box-shadow: 2px 2px 10px -2px rgba(0,0,0,.35);
-  }
+}
   
-  nav ul li:hover {
+nav ul li:hover {
     background: #143C54;
     transition: background .45s;
-  }
+}
 
-  nav ul a {
+nav ul a {
     display: block;
     color: ivory;
     font-size: 18px;
@@ -96,7 +100,7 @@ nav {
     text-decoration: none;
     transition: color .3s;
     font-family:'Times New Roman', Times, serif;
-  }
+}
 
 h1{
     text-align: center;
@@ -105,6 +109,12 @@ h1{
     font-family:'Times New Roman', Times, serif;
 }
 
+h2{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+h3{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
 .indice{
     padding: 15px;
     border: 1px solid #ccc;
@@ -123,9 +133,3 @@ h1{
   font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-h2{
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
-h3{
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
