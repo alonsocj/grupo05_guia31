@@ -35,9 +35,6 @@ max,min,zone{
     text-align: center;
     padding: 10px;
     background-color: rgba(134, 208, 243, 0.952);
-    /*padding: 50px;*/
-   /* height: 95px;
-    width: 95px; */
 }
 fila{
     display: table-row;
@@ -45,16 +42,11 @@ fila{
     text-align: left;
     height: 75px;
     width: 5px;
-    /*background-color:gold;*/
-    /*padding: 10px 10px 10px 20px;*/
 }
 tMax,tMin{
     display: table-row;
     font: normal 20px arial; 
-    text-align: left;
-    /*background-color: yellowgreen;*/
-    /*padding: 300px;
-    padding: 30px;*/
+    text-align: center;
     height: 75px;
     width: 5px;
 }
@@ -71,15 +63,25 @@ pie{
     background-color: rgb(37, 36, 36);
     color: aliceblue;
     font-style: italic;
-    margin: 300px 10px 10px 10px;
+    margin: 180px 10px 10px 10px;
     padding: 20px;
+    font-size: 20px;
 }
 
 subtitulo{
     display: block;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-size: 20px;
+    font-size: 25px;
     padding-top: 20px;
-    /*padding-bottom: 10px;*/
+    color: rgb(3, 3, 87);
+}
+
+datos{
+    display: block;
+    padding-top: 20px;
+    text-align: center;
+    font-size: 17px;
+    font-style: italic;
+
 }
 
