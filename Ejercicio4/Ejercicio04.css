@@ -1,52 +1,85 @@
 Temperaturas{
     text-align: center;
-    
+    background-color: #ffffff;
 }
 Tabla{   
-    margin: 10px;
-    border: 1px solid black; border-collapse: collapse;
+    margin: 100px 10px 0px 10px;
+    border: 1px solid black; 
+    border-collapse: collapse;
     display: inline-table;
     background-color:antiquewhite;
 }
 titulo{
-    background-color: aqua;
+    background-color: rgb(37, 36, 36);
     margin: 10px;
     display: block !important;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 30px;
+    color: aliceblue;
+    font-style: italic;
+    padding: 50px;
 }
 
 colm{
     display: table-cell;
-    border: 1px solid black; border-collapse: collapse;
+    border: 1px solid black; 
+    border-collapse: collapse;
     font: normal 20px arial; 
-          text-align: left;
+    text-align: left;
     padding: 10px;
     text-align: center;
 }
-max,min{
+max,min,zone{
     display: table-cell;  
     font: normal 20px arial; 
-          text-align: left;
-          padding: 5px;
+    text-align: left;
+    padding: 10px 10px 10px 20px;
+    background-color: yellow;
+    /*padding: 50px;*/
+   /* height: 95px;
+    width: 95px; */
 }
 fila{
     display: table-row;
     font: normal 20px arial; 
-          text-align: left;
+    text-align: left;
+    height: 75px;
+    width: 5px;
+    background-color:gold;
+    /*padding: 10px 10px 10px 20px;*/
 }
 tMax,tMin{
     display: table-row;
     font: normal 20px arial; 
-          text-align: left;
-    
+    text-align: left;
+    background-color: yellowgreen;
+    /*padding: 300px;
+    padding: 30px;*/
+    height: 75px;
+    width: 5px;
 }
 
 fila[name]::before{
     content: attr(name);
-   
+    text-align: center !important;
 }
+
 pie{
     display: block;
-    background-color: aqua;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-color: rgb(37, 36, 36);
+    color: aliceblue;
+    font-style: italic;
+    margin: 300px 10px 10px 10px;
+    padding: 20px;
 }
+
+subtitulo{
+    display: block;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+

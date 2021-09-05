@@ -4,14 +4,16 @@
 
 
 <Temperaturas>
-<titulo>Temperatura</titulo>
+<titulo>SNET: Temperaturas</titulo>
+<subtitulo>Temperaturas registradas en las diferentes zonas del pais</subtitulo>
 <Tabla>
   <!-- Columna 01 -->
   <colm id="1" name="dia">Dias
-    <fila id="1" name="Zonas"></fila>
-    <fila id="2" name="Oriental"></fila>
-    <fila id="3" name="Central"></fila>
-    <fila id="4" name="Occidental"></fila>
+    <zone> Zona
+    <fila id="1" name="Oriental"></fila>
+    <fila id="2" name="Central"></fila>
+    <fila id="3" name="Occidental"></fila>
+  </zone>
   </colm>
 
   <!-- Columna 02 -->
