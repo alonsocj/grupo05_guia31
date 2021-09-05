@@ -10,28 +10,35 @@
 	<title>Inicio</title>
 	<link rel="stylesheet" href="css/style.css">
 </head>
-<body>
-	<p>
-		<h1> 
-			Lista de ejercicios
-		</h1>
-		<ul class ="indice">
-      <h2>Archivos XML</h2>
-      <li><a href="Ejercicio4/Ejercicio04.xml">Ejercicio 4</a></li>
-      <li><a href="Ejercicio5/Ejercicio5.xml">Ejercicio 5</a></li>
-      <li><a href="Ejercicio6/ejercicio6.xml">Ejercicio 6</a></li>
-			<h2>Archivos JSON</h2>
-      <li><a href="Ejercicio4/Ejercicio4.json">Ejercicio 4</a></li>
-      <li><a href="Ejercicio5/Ejercicio5.json">Ejercicio 5</a></li>
-      <li><a href="Ejercicio6/ejercicio6.json">Ejercicio 6</a></li>
-		</ul>
-	</p>
+
+	<h1> 
+		Lista de ejercicios
+	</h1>
+	<div class ="indice">
+		<nav>
+			<h2>XML</h2>
+			 <input id="toggle" type="checkbox" checked>
+		  <ul>
+			<li><a href="Ejercicio4/Ejercicio04.xml" target="_blank">Ejercicio 4</a></li>
+      		<li><a href="Ejercicio5/Ejercicio5.xml" target="_blank">Ejercicio 5</a></li>
+			<li><a href="Ejercicio6/ejercicio6.xml" target="_blank">Ejercicio 6</a></li>
+		  </ul>
+		</nav>
+		<nav>
+			<h2>JSON</h2>
+			 <input id="toggle" type="checkbox" checked>
+		  <ul>
+			<li><a href="Ejercicio4/Ejercicio4.json" target="_blank">Ejercicio 4</a></li>
+      		<li><a href="Ejercicio5/Ejercicio5.json" target="_blank">Ejercicio 5</a></li>
+			<li><a href="Ejercicio5/ejercicio6.json" target="_blank">Ejercicio 6</a></li>
+		  </ul>
+		</nav>
+	</div>
+
 	<div class="datos">
-		<div>
-			Grupo de trabajo: 05
-		</div>
+	<h2>Grupo de trabajo: 05</h2>
     <h3>Autores del Sitio</h3>
-    <ul>
+    <u class="autores">
         <li>Miguel Angel Amaya Rodriguez</li>
         <li>Christian Javier Ayala Guerra</li>
         <li>Diego José Ayala Guerra</li>
@@ -39,7 +46,8 @@
         <li>Carolina Isabel Pineda Delgado</li>
         <li>José Gustavo Pineda Delgado</li>
         <li>William Enrique Vásquez Mancia</li>
-    </ul>
+    </u>
 	</div>
 </body>
 </html>
+

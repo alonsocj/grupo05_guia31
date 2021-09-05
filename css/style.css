@@ -2,40 +2,130 @@ body{
     padding-right: 6em;
     padding-left: 6em;
     padding-bottom: 3em;
+    background-color: #E3E4E6;
 }
+
+nav {
+    margin: auto;
+    margin-top: 40px;
+    position: relative;
+    width: 50vw;
+    min-width: 320px;
+    height: 200px;
+  }
+
+  nav h2 {
+    border-radius: 2px;
+    position: relative;
+    background: #177BB6 ;
+    height: 80px;
+    text-transform: uppercase;
+    font-family:'Times New Roman', Times, serif;
+    color: ivory;
+    font-weight: 200;
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 4px 4px 20px -2px rgba(0,0,0,.35);
+    transition: all .4s;
+  }
+/* Decoracion al pasar encima del h2 */
+  nav:hover h2{
+    transform: translateY(-2px);
+    box-shadow: 2px 2px 5px -1px rgba(0,0,0,.35);
+   }
+   /* Decoracion al presionar el h2*/
+  nav:hover:active h2{
+    transform: translateY(10px);
+    box-shadow: 0px -1px 2px 0px rgba(0,0,0,.35);
+   }
+  /* Checkbox que despliega la lista */
+  input {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+    opacity: 0;
+    cursor: pointer;
+    height: 80px;
+  }
+  /* Hace que la lista no aparezca visible*/
+  #toggle:checked ~ul {
+    height: 0%;
+  }
+  
+  nav ul {
+    padding-left: 0;
+    padding-top: 0;
+    margin-top: 0;
+    list-style: none;
+    overflow: hidden;
+    text-align: right;
+    margin-bottom: 22px;
+    text-align: center;
+    transition: all .4s ease-out;
+    height: 100%;
+    
+  }
+  nav ul li {
+    border-radius: 2px;
+    position: relative;
+    display: inline-block;
+    margin-left: 35px;
+    line-height: 1.5;
+    width: 100%;
+    margin: 0;
+    margin-bottom: 5px;
+    background: #4288B2 ;
+    transition: background 3s;
+    box-shadow: 2px 2px 10px -2px rgba(0,0,0,.35);
+  }
+  
+  nav ul li:hover {
+    background: #143C54;
+    transition: background .45s;
+  }
+
+  nav ul a {
+    display: block;
+    color: ivory;
+    font-size: 18px;
+    font-weight: 200;
+    text-decoration: none;
+    transition: color .3s;
+    font-family:'Times New Roman', Times, serif;
+  }
 
 h1{
     text-align: center;
     font-size: 50px;
     text-transform: uppercase;
-}
-h2{
-    font-size: 25px;
-    text-transform: uppercase;
-    text-align: center;
+    font-family:'Times New Roman', Times, serif;
 }
 
 .indice{
-    border-style: dashed;
-    border-color: black;
     padding: 15px;
+    border: 1px solid #ccc;
+    box-shadow: 7px 7px 15px #592A08; 
 }
-
-.indice li{
-    list-style-type:none;
-    text-align: center;
-}
-
-.indice li a{
-    text-decoration: none;
-    font-size: 20px;
-}
-
 .datos {
-    padding: 30 px;
+    padding: 30px;
+    margin: 50px;
+    text-align: center;
+    border: 1px solid #ccc;
+    box-shadow: 7px 7px 15px #592A08; 
+}
+.autores{
+  list-style: none;
+  text-decoration: none;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-.datos div{
-    text-align: center;
-    font-size: 20px;
+h2{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+h3{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
