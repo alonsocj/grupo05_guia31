@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="UTF-8"  standalone="yes"?>
 
 <!--Ejercicio 5 Grupo 05 -->
-<?xml-stylesheet type="text/css" href="ejercicio5.css" ?>
+<?xml-stylesheet type="text/css" href="../css/ejercicio5.css" ?>
 <agenda>
 <contacto id="1">
     <nombre>Cristian Xavier</nombre>
