@@ -113,6 +113,22 @@
       <tMin>20°C</tMin>
     </min>
   </colm>
+
+  <!-- Columna 09 -->
+  <colm id="9">Promedios
+    <max>Max
+      <tMax>32.7°C</tMax>
+      <tMax>32°C</tMax>
+      <tMax>30.1°C</tMax>
+    </max>
+    <min>Min
+      <tMin>22°C</tMin>
+      <tMin>23°C</tMin>
+      <tMin>21.9°C</tMin>
+    </min>
+  </colm>
 </Tabla>
+<datos>Datos del Sol: Salida: 05:45, Puesta:18:05</datos>
+ <datos>Datos de la Luna: Salida: 03:32, Puesta:16:41</datos>
 <pie>Grupo 05</pie>
 </Temperaturas>
